@@ -126,7 +126,7 @@ module FPGA (
 | `CPU_RESETN` | in | Reset button, **active low** (1 when not pressed) |
 | `BTNC/U/L/R/D` | in | Push buttons, active high |
 | `VGA_R/G/B[3:0]` | out | 4-bit VGA colour channels |
-| `VGA_HS`, `VGA_VS` | out | VGA sync, negative polarity for 640x480@60 |
+| `VGA_HS`, `VGA_VS` | out | VGA sync, negative polarity |
 
 ## Command-line options
 
